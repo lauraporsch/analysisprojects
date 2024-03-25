@@ -1,4 +1,5 @@
 ###About this Project
+
 I created this project as part of the course "100 Days of Coding: The Complete Python Bootcamp". Hence the older dates of the data, I will update to the newest available data soon.
 
 Google Trends gives estimates of search volume. In this project I explored if search popularity relates to other kinds of data.
