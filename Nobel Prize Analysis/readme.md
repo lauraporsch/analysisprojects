@@ -17,11 +17,13 @@
 <p style="text-align: left;color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 14px;"><br></p>
 
 <h2>interactive Choropleth Map</h2>
+
 ![image](https://github.com/lauraporsch/analysisprojects/assets/127047376/cb29a2f6-248b-4e9c-b086-2e06fea4fdb1)
 
 ![image](https://github.com/lauraporsch/analysisprojects/assets/127047376/17280646-1e6d-43cc-bbd0-5c63d3b0d8a4)
 
 <h2>interactive Sunburst Chart</h2>
+
 ![image](https://github.com/lauraporsch/analysisprojects/assets/127047376/c6fa0e11-52dc-4733-83a5-68f00c4571c6)
 
 ![image](https://github.com/lauraporsch/analysisprojects/assets/127047376/8c942fba-d01d-43c8-927f-91f61b7625c7)
