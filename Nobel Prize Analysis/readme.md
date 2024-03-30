@@ -1,4 +1,5 @@
 <h1> About this project</h1>
+<p style="text-align: left;color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 14px;">I created this project as part of the course "100 Days of Code - The complete Python Bootcamp"</p>
 <p style="text-align: left;color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 14px;">Every year the Nobel Prize is given to scientists and scholars in the categories chemistry, literature, physics, physiology or medicine, economics, and peace.</p>
 <p style="text-align: left;color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 14px;">Are there any patterns in the data of the past Nobel laureates?<br>What can we learn about the Nobel prize?</p>
 <p style="text-align: left;color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 14px;"><br></p>
@@ -18,17 +19,20 @@
 
 <h2>interactive Choropleth Map</h2>
 
-![image](https://github.com/lauraporsch/analysisprojects/assets/127047376/cb29a2f6-248b-4e9c-b086-2e06fea4fdb1)
+![image](https://github.com/lauraporsch/analysisprojects/assets/127047376/00f0059e-60bc-405a-9502-f7db859bf2d1)
 
-![image](https://github.com/lauraporsch/analysisprojects/assets/127047376/17280646-1e6d-43cc-bbd0-5c63d3b0d8a4)
+![image](https://github.com/lauraporsch/analysisprojects/assets/127047376/79f8c4dc-4969-4d09-8559-815bbfc76d82)
+
 
 <h2>interactive Sunburst Chart</h2>
 
-![image](https://github.com/lauraporsch/analysisprojects/assets/127047376/c6fa0e11-52dc-4733-83a5-68f00c4571c6)
+![image](https://github.com/lauraporsch/analysisprojects/assets/127047376/5140c3af-c625-4f94-abe7-54b7309cf996)
 
-![image](https://github.com/lauraporsch/analysisprojects/assets/127047376/8c942fba-d01d-43c8-927f-91f61b7625c7)
+![image](https://github.com/lauraporsch/analysisprojects/assets/127047376/506f0c56-da6d-40ee-a1b2-85151b01586c)
 
-![image](https://github.com/lauraporsch/analysisprojects/assets/127047376/1d2a5097-f261-4c35-a0dd-6253ed2f33ff)
+![image](https://github.com/lauraporsch/analysisprojects/assets/127047376/6ce32ae1-43f2-47a7-a29a-292426f72550)
+
+
 
 
 
