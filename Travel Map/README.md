@@ -1,7 +1,7 @@
 <h1>About this project</h1>
-<p>I have different ways of keeping track of my travel destinations, one of the is an Excel file that just contains the names of places I traveled to within Canada.</p>
+<p>I have different ways of keeping track of my travel destinations, one is an Excel file that simply contains the names of places I traveled to within Canada.</p>
 <p><br></p>
-<p>Using Pandas I matched these cities to a csv file containing coordinates and then transferred the places to an interactive map, using Folium.</p>
+<p>Using Pandas I matched the cities from the Excel to a CSV file containing coordinates and then transferred the places to an interactive map, using the Python library folium.</p>
 <p><br></p>
 <p>This is an ongoing project and I am still looking for a better way to transfer all the places I have traveled to, so I can map them out with clusters on a map.</p>
 
