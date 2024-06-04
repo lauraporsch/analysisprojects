@@ -16,7 +16,7 @@
 <p>Furthermore, selecting Oxford as Departure Station shows that the Oxford to Bristol Temple Meads route was 100% delayed at 2 pm (11.63% of overall performance) due to signal failure. Selecting the single months shows, that this issue was present every month. Fixing the signal issue on this route could lead to fewer delays and therefore fewer refunds requested and more net revenue.</p>
 
 
-<p>The Dashboard can be found <a href="https://public.tableau.com/views/MavenChallengeTrains/UKNationalRailAnalysis?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener noreferrer">here</a> </p>
+<p>The Dashboard can be found <a href="https://public.tableau.com/views/MavenChallengeTrains/UKNationalRailAnalysis?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link" target="_blank">here</a> </p>
 
 
 ![image](https://github.com/lauraporsch/analysisprojects/assets/127047376/06b12660-4e09-4e57-ac61-1c6e2a13ccba)
