@@ -14,7 +14,7 @@ SELECT DISTINCT Cuisine, COUNT(RestaurantID) AS Count_Restaurants
 FROM restaurants
 GROUP BY Cuisine
 ORDER BY Count_Restaurants DESC;
-# The majority of Restaurants offer Indian Cuisine, but is Indian also the most popular among customers?
+# The majority of Restaurants offer Indian Cuisine, but is Indian food also the most popular among customers?
 
 # Total orders
 SELECT COUNT(Order_ID) 
@@ -51,10 +51,10 @@ SELECT Cuisine, COUNT(Order_ID) AS total_orders
 FROM orders_by_restaurants
 GROUP BY Cuisine
 ORDER BY total_orders DESC;
-# Chinese and North Indian are the top cusinies with 81 total orders each
+# Chinese and North Indian are the top cuisines with 81 total orders each
 # Indian food is popular in general (North: 81 total orders, South: 70 total orders)
 
-# Highest and lowest rated order food
+# Highest and lowest-rated food
 SELECT Order_ID, RestaurantName, Cuisine, Quantity_of_Items, Order_Amount, Delivery_Time_Taken_mins, Customer_Rating_Food
 FROM orders_by_restaurants
 WHERE Customer_Rating_Food = 
@@ -64,9 +64,9 @@ OR
 Customer_Rating_Food = 
 	(SELECT MIN(Customer_Rating_Food) 
     FROM orders_by_restaurants);
-# On a first look, delivery time doesn't seem to affect food rating, however the order amounts look higher for the lower rated food     
+# On first look, delivery time doesn't seem to affect food rating. However, the order amounts look higher for the lower-rated food     
     
-# Highest and lowest rated order delivery
+# Highest and lowest-rated order delivery
 SELECT Order_ID, RestaurantName, Cuisine, Quantity_of_Items, Order_Amount, Delivery_Time_Taken_mins, Customer_Rating_Delivery
 FROM orders_by_restaurants
 WHERE Customer_Rating_Delivery = 
@@ -98,5 +98,5 @@ GROUP BY Cuisine;
 # Lowest rating cuisine by food: South Indian (3.21)
 # Highest rating cuisine by delivery: South Indian (3.29)
 # Lowest rating cuisine by delivery: Belgian (3.25)
-# Unlikely that cuisine has an influence on delivery
-# Highest and lowest rating are close for food and delivery, likely because cuisine itself is not a driving factor, but the way the restaurant prepares the food
+# It is unlikely that cuisine influences delivery rating
+# Highest and lowest ratings aren't spread widely, likely because cuisine itself is not a driving factor, but the way the restaurant prepares the food
