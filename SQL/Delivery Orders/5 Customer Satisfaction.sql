@@ -29,7 +29,7 @@ FROM orders_by_restaurants
 GROUP BY RestaurantName, Cuisine;
 # Highest rating restaurant by food: Vrinda Bhavan (3.94)
 # Lowest rating restaurant by food: Win Hotel (2.93)
-# Can we find a reason for the two restaurants being rated highest and lowest?
+# Can we find out why the two restaurants are rated highest and lowest?
 
 SELECT RestaurantName, Cuisine, COUNT(Order_ID), AVG(Quantity_of_Items), AVG(Order_Amount), 
 	AVG(Delivery_Time_Taken_mins), AVG(Customer_Rating_Food), AVG(Customer_Rating_Delivery), Zone, Category
@@ -38,9 +38,9 @@ GROUP BY RestaurantName, Cuisine, Zone, Category
 HAVING RestaurantName = "Vrinda Bhavan" OR RestaurantName = "Win Hotel";
 # Zone and Category are the same for both restaurants
 # Win Hotel had 11 orders more than Vrinda Bhavan (27 vs. 16) but only significantly less average quantity of items
-# higher volumes could explain lower food ratings as there is less time to prepare per order, but more data and analysis would be needed
+# Higher volumes could explain lower food ratings as there is less time to prepare per order, but more data and analysis would be needed
 
-# Did the Restaurants receive the orders distributed evenly throughtout the day?
+# Did the Restaurants receive the orders distributed evenly throughout the day?
 SELECT RestaurantName,  HOUR(Order_Date) AS hour, COUNT(Order_ID) AS number_orders
 FROM orders_by_restaurants
 GROUP BY RestaurantName, hour
@@ -81,7 +81,7 @@ SELECT RestaurantName, COUNT(Order_ID)
 FROM orders_by_restaurants
 WHERE RestaurantName = "Vrinda Bhavan" AND 
 	Customer_Rating_Food = 1;
-# Win Hotel received lowest rating as often as highest (4 out of 27 or 18.52%)
+# Win Hotel received the lowest rating as often as the highest (4 out of 27 or 18.52%)
 # Vrinda Bhavan only received the lowest rating 1 out of 16 times (6.25%)
 
 SELECT RestaurantName, Order_ID, Customer_Name, HOUR(Order_Date), Quantity_of_Items, Order_Amount, 
@@ -89,7 +89,7 @@ SELECT RestaurantName, Order_ID, Customer_Name, HOUR(Order_Date), Quantity_of_It
 FROM orders_by_restaurants
 WHERE RestaurantName = "Win Hotel" AND 
 	Customer_Rating_Food = 1;
-# The lowest rated food orders for Win Hotel are spread out over the day and do not seem to have a common factor
+# The lowest-rated food orders for Win Hotel are spread out over the day and do not seem to have a common factor
 # With the data available it is impossible to tell what the reasons are for the low food ratings
 # Data about scheduling (e.g. number of cooks), ordered items and order quality (e.g. missing items, non-available items) would help to answer this question
 
@@ -99,7 +99,7 @@ FROM orders_by_restaurants
 GROUP BY RestaurantName, Customer_Rating_Food
 HAVING  RestaurantName = "Win Hotel" OR RestaurantName = "Vrinda Bhavan"
 ORDER BY RestaurantName;
-# For both restaurants the lowest rated orders are more expensive than the highest 
+# For both restaurants the lowest-rated orders are more expensive than the highest 
 # Calculation of correlation (e.g. with Python) recommended
 
 SELECT RestaurantName, Order_ID, Customer_Name, (Order_Amount/Quantity_of_Items) AS avg_price_per_item, Customer_Rating_Food
