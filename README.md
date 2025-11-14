@@ -20,7 +20,7 @@
         </ul>
     </li>
     <li style="line-height: 1.5;"><strong>Visualization:</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<ul>
-            <li style="line-height: 1.5;">IBM Cognos Analytics</li>
+            <li style="line-height: 1.5;">Power BI</li>
             <li style="line-height: 1.5;">Tableau</li>
             <li style="line-height: 1.5;">Looker Studio</li>
         </ul>
