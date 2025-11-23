@@ -11,5 +11,4 @@
 <h2><strong>Project Walkthrough</strong></h2>
 <p>I created this project as part of the course "100 Days of Coding: The Complete Python Bootcamp".</p>
 <p>I explored the dataset by checking for missing values, duplicates, and basic statistics. I calculated the percentage of maternal deaths, visualized births and deaths over time, and compared yearly outcomes between the two clinics. I then measured the proportion of deaths at each clinic and examined how these changed after handwashing was introduced. Finally, I visualized the drop in mortality and confirmed its significance with a statistical test.</p>
-<p>&nbsp;</p>
-<p class="demoTitle">&nbsp;</p>
+
