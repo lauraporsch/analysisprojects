@@ -29,7 +29,6 @@
 </li>
 </ul>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 <h2><strong>The Question Behind This Project</strong></h2>
 <p>Which factors most influence housing prices in Boston?</p>
 <p>How can I build a multivariable linear regression model that accurately predicts property values based on these features?</p>
