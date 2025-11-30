@@ -41,7 +41,6 @@
 <p>As a next step I would add the costs per menu items, prep times and labour costs to recommend more specific actions regarding single menu items and staffing.</p>
 <p>&nbsp;</p>
 <h2>Tools Used</h2>
-<p>&nbsp;</p>
 <p>Power BI Desktop &ndash; for building the interactive dashboard</p>
 <p>DAX &ndash; to create measures and calculated fields</p>
 <p>Power Query &ndash; for data cleaning, transformation, and modeling</p>
