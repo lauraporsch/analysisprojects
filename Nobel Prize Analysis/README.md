@@ -1,6 +1,8 @@
 <img width="672" height="339" alt="image" src="https://github.com/user-attachments/assets/2b23ff52-a3f3-4d25-b6fa-d251723e422e" />
 <h1>About This Project</h1>
-<p>Every year the Nobel Prize is given to scientists and scholars in the categories chemistry, literature, physics, physiology or medicine, economics, and peace. This analysis in Jupyter Notebook contains different visualizations built with matplotlib, plotly and seaborn. Are there any patterns in the data of past Nobel laureates? What can we learn about the Nobel prize? I created this project as part of the course "100 Days of Code - The complete Python Bootcamp".</p>
+<p>Every year the Nobel Prize is given to scientists and scholars in the categories chemistry, literature, physics, physiology or medicine, economics, and peace. This analysis in Jupyter Notebook contains different visualizations built with matplotlib, plotly and seaborn. Are there any patterns in the data of past Nobel laureates? What can we learn about the Nobel prize? I created this project as part of the course "100 Days of Code - The complete Python Bootcamp".
+
+GitHub does not render the plotly figures, the full notebook including all visualizations can be viewed <a href="https://colab.research.google.com/drive/1tEWFLYsFC4uM-wnx9KFI5ybJL434d7Qh?usp=sharing" target="_blank">here</a>.
 <h2>The Core Questions Behind This Project</h2>
 <ul>
 <li>&nbsp;What is the gender distribution among Nobel prize winners?</li>
