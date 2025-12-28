@@ -4,7 +4,7 @@
 <h1>About this project</h1>
 <p>This project is an interactive Power BI dashboard built to analyze restaurant sales revenue. The dashboard provides insights into category sales distribution, meal-period trends, top- and bottom- performing menu items, and weekday/hourly sales patterns. I performed all steps from Data Cleaning and Manipulation over Data Modeling to the final Visualizations and Analysis within PowerBI.</p>
 <p>The goal is to turn raw sales data into actionable insights, helping Restaurant Operations Managers and Marketing Teams make data-driven decisions for menu optimization, promotions/specials, and opening times.</p>
-<p>The Core Questions Behind This Project</p>
+<h2>The Core Questions Behind This Project</h2>
 <ul>
 <li>Which menu items and categories drive the most revenue?</li>
 <li>What are the peak hours and weekdays for orders?</li>
