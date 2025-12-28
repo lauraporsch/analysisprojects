@@ -3,7 +3,7 @@
 <p>I performed the full analytical workflow in SQL, including data exploration, metric definition, data modeling, and behavioral analysis. The goal was to move beyond surface-level metrics and identify patterns that help to understand why users might leave the e-commerce website without buying anything.</p>
 <p >The insights from this project are designed to support Product, Marketing, and Growth teams in improving conversion strategies, retention efforts, and revenue optimization.</p>
 
-<p>The Core Questions Behind This Project</p>
+<h2>The Core Questions Behind This Project</h2>
 <ul>
 <li>How does user engagement relate to purchases and revenue?</li>
 <li>What user behavior is more likely to lead to a purchase?</li>
